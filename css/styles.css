@@ -1,0 +1,186 @@
+article {
+  display: none;
+}
+.footer {
+  background-color: #f1f5f8;
+}
+.footer .contact {
+  -webkit-align-items: center;
+}
+.footer .contact .left p {
+  margin: 20px 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-family: PingFangSC-Regular;
+  color: #c5c7cb;
+}
+.footer .contact .right {
+  padding: 60px 15px 30px 15px;
+}
+.footer .contact .right p {
+  display: flex;
+  justify-content: flex-end;
+}
+.footer .contact .right a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-left: 25px;
+  position: relative;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.footer .contact .right a:first-child {
+  margin-left: 0;
+}
+.footer .contact .right .wechat:hover:after {
+  display: block;
+}
+.footer .contact .right .wechat:after {
+  display: none;
+  position: absolute;
+  top: -158px;
+  left: 50%;
+  margin-left: -60px;
+  content: '';
+  width: 120px;
+  height: 120px;
+  background: #ffffff url("../images/qrcode@2x.png") no-repeat center;
+  box-shadow: 0px 5px 30px 0px rgba(124, 138, 192, 0.2);
+  border-radius: 4px ;
+  z-index: 100;
+}
+.facebook {
+  background-image: url("../images/icon_facebook@2x.png");
+}
+.facebook:hover {
+  background-image: url("../images/icon_facebook_hover@2x.png");
+}
+.twitter {
+  background-image: url("../images/icon_twitter@2x.png");
+}
+.twitter:hover {
+  background-image: url("../images/icon_twitter_hover@2x.png");
+}
+.wechat {
+  background-image: url("../images/icon_wechat@2x.png");
+}
+.wechat:hover {
+  background-image: url("../images/icon_wechat_hover@2x.png");
+}
+.github {
+  background-image: url("../images/icon_github@2x.png");
+}
+.github:hover {
+  background-image: url("../images/icon_github_hover@2x.png");
+}
+.telegram {
+  background-image: url("../images/icon_telegram@2x.png");
+}
+.telegram:hover {
+  background-image: url("../images/icon_telegram_hover@2x.png");
+}
+.reddit {
+  background-image: url("../images/icon_reddit@2x.png");
+}
+.reddit:hover {
+  background-image: url("../images/icon_reddit_hover@2x.png");
+}
+.footer .divide {
+  width: 100%;
+  height: 1px;
+  margin: 0 auto;
+  background: #e0e0e0;
+}
+.footer .copyright {
+  line-height: 40px;
+  overflow: hidden;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer .logoBottom {
+  float: left;
+}
+.footer .copyright p {
+  float: right;
+  font-size: 14px;
+  color: #c5c7cb;
+}
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+  color: #BBC1D3;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+  background-color: #fff;
+}
+.navbar-default {
+  background: #fff;
+  box-shadow: 0px 1px 9px 0px rgba(203, 208, 228, 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border: none;
+  z-index: 999;
+}
+.navbar-default .navbar-collapse.in {
+  overflow-y: visible;
+}
+.navbar-default .navbar-collapse a {
+  text-decoration: none;
+  line-height: 30px;
+  font-size: 14px;
+  padding: 15px 12px;
+}
+.navbar-default .navbar-collapse a:hover {
+  color: #73799c;
+  background: #fff;
+}
+.navbar-default .navbar-collapse .active {
+  color: #73799c;
+}
+.navbar-default .navbar-collapse .active a {
+  background: #fff;
+}
+.navbar-default .language {
+  position: relative;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding-left: 12px;
+}
+.navbar-default .language ul {
+  position: absolute;
+  top: 68px;
+  left: 0;
+  z-index: 100;
+  width: 132px;
+  background: rgba(255, 255, 255, 0.4);
+  display: none;
+}
+.navbar-default .language ul li {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  background: rgba(27, 118, 255, 0.6);
+}
+.navbar-default .language ul li a {
+  color: #fff;
+}
+.navbar-default .language ul li img {
+  width: 20px;
+  height: 14px;
+  margin-right: 15px;
+}
+.navbar-default .language ul li:hover {
+  background: #1B76FF;
+}
+.navbar-default .language ul li:hover a {
+  background: transparent;
+  color: #fff;
+}

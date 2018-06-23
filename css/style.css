@@ -349,24 +349,30 @@ a:hover {
     margin: 0 auto;
     text-align: center;
 }
-.title h3:before{
-    vertical-align: 20%;
-    display: inline-block;
-    content: '';
-    width:100px;
-    height:1px;
-    margin-right: 20px;
-    background:rgba(216,216,216,1);
+/*.title h3:before{*/
+    /*vertical-align: 20%;*/
+    /*display: inline-block;*/
+    /*content: '';*/
+    /*width:100px;*/
+    /*height:1px;*/
+    /*margin-right: 20px;*/
+    /*background:rgba(216,216,216,1);*/
+/*}*/
+.title .spacing{
+    margin: 14px auto;
+    width: 64px;
+    height: 2px;
+    background:linear-gradient(90deg,rgba(24,144,255,0),rgba(24,144,255,1));
 }
-.title h3:after{
-    vertical-align: 20%;
-    display: inline-block;
-    content: '';
-    width:100px;
-    height:1px;
-    margin-left: 20px;
-    background:rgba(216,216,216,1);
-}
+/*.title h3:after{*/
+    /*vertical-align: 20%;*/
+    /*display: inline-block;*/
+    /*content: '';*/
+    /*width:100px;*/
+    /*height:1px;*/
+    /*margin-left: 20px;*/
+    /*background:rgba(216,216,216,1);*/
+/*}*/
 .title .sec-title{
     height:25px;
     line-height:26px;
@@ -644,6 +650,13 @@ body{
 }
 .solutionBlock{
     padding-top: 96px;
+}
+.solutionBlock-info{
+    color: #333;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    margin: 40px 20px;
 }
 .solutionBlock .info{
     overflow: hidden;
@@ -1003,8 +1016,11 @@ body{
     margin-bottom: 80px;
     margin-top: 80px;
 }
+.news-detail .content-left{
+    background: #fff;
+    padding: 30px 60px;
+}
 .news-detail h5 {
-    text-align: center;
     font-size: 24px;
     font-family: PingFangSC-Medium;
     color: #4c5155;
@@ -1015,11 +1031,14 @@ body{
 .news-detail h6 {
     font-size: 16px;
     font-family: Ubuntu;
-    color: #8c8c8c;
+    color: #999;
     line-height: 18px;
     margin: 0 0 30px 0;
     font-weight: 500;
-    text-align: right;
+}
+.news-detail h6 span{
+    color: #0084F4;
+    margin-left: 20px;
 }
 .news-detail .rich-text {
     font-size: 16px;
@@ -1028,7 +1047,25 @@ body{
 .news-detail .rich-text img {
     max-width: 100%;
 }
-
+.news-detail .content-right{
+    background: #fff;
+    padding: 30px;
+    min-height: 500px;
+}
+.news-detail .content-right .tit{
+    color: #333;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.news-detail .content-right li{
+    margin-bottom: 12px;
+}
+.news-detail .content-right a{
+    color: #0084F4;
+    font-size: 16px;
+    line-height: 28px;
+}
 
 /*联系我们*/
 .contractUs{
@@ -1042,27 +1079,14 @@ body{
 .contractUs .list{
     overflow: hidden;
 }
-.contractUs .list .item{
-    position: relative;
-    min-height: 200px;
-    padding:35px 20px 20px 20px;
-    text-align: center;
+.contractUs .list p{
+    color: #333;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 12px;
 }
-.contractUs .item span{
-    display: inline-block;
-    height:52px;
-    font-size:20px;
-    font-family:PingFangSC-Regular;
-    color:rgba(76,81,85,1);
-    line-height:52px;
-    margin-left: 19px;
-}
-.contractUs .item p{
-    font-size:16px;
-    font-family:Ubuntu;
-    color:rgba(50,145,255,1);
-    line-height:24px;
-    margin-top: 19px;
+.contractUs .list span {
+    color: #28A9FF;
 }
 
 /*常见问题*/

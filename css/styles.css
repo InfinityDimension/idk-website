@@ -138,6 +138,10 @@ h6 {
 .navbar-default .navbar-collapse.in {
   overflow-y: visible;
 }
+.navbar-default .navbar-brand {
+  padding: 10px 15px;
+  height: 40px;
+}
 .navbar-default .navbar-collapse a {
   text-decoration: none;
   line-height: 30px;

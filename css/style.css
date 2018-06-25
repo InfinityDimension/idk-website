@@ -760,34 +760,28 @@ body{
     background:linear-gradient(180deg,rgba(151,216,255,1),rgba(50,145,255,1));
 }
 .timeAxis .date{
-    height:74px;
-    font-size:30px;
+    font-size:20px;
     font-family:Ubuntu;
     color:rgba(76,81,85,1);
-    line-height:74px;
-    margin-bottom: 120px;
+    line-height:30px;
+    margin-bottom: 100px;
     position: relative;
 }
 .timeAxis .event{
-    height:74px;
-    font-size:24px;
-    font-family:PingFangSC-Regular;
-    color:rgba(115,121,156,1);
-    line-height:74px;
-    margin-bottom: 120px;
-
+    margin-bottom: 100px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
-
-.timeAxis .event span{
-    font-size:24px;
+.timeAxis .event p{
+    font-size:16px;
     font-family:PingFangSC-Regular;
-    color:rgba(115,121,156,1);
-    line-height:33px;
-    margin: 0 30px 0 20px;
+    color:#73799C;
+    line-height:30px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
 }
 .timeAxis .line{
     width:80px;
@@ -804,7 +798,7 @@ body{
 }
 .timeAxis .left .date:after{
     position: absolute;
-    top:27px;
+    top:5px;
     right: -11px;
     content: '';
     width: 20px;
@@ -821,7 +815,7 @@ body{
 }
 .timeAxis .right .date:after{
     position: absolute;
-    top:27px;
+    top:5px;
     left: -11px;
     content: '';
     width: 20px;
@@ -845,26 +839,19 @@ body{
     text-align: center;
 }
 .timeAxis-sm li .date{
-    font-size: 28px;
+    font-size: 20px;
     font-family: Ubuntu;
     color: rgba(76,81,85,1);
     line-height: 54px;
 }
 .timeAxis-sm li .event{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding-bottom: 30px;
 }
-.timeAxis-sm li .event span{
-    font-size: 24px;
+.timeAxis-sm li .event p{
+    font-size: 16px;
     font-family: PingFangSC-Regular;
     color: rgba(115,121,156,1);
-    line-height: 33px;
-    vertical-align: middle;
-    margin-left: 30px;
-}
-.timeAxis-sm li .event img{
+    line-height: 30px;
     vertical-align: middle;
 }
 

@@ -75,7 +75,8 @@ var titleTranslate = {
         distribute: "分配计划",
         description: "项目描述",
         contractUs: "联系我们",
-        news: "新闻"
+        news: "新闻",
+        team: "团队"
     },
     en: {
         water: "Bottled Water Industry",
@@ -89,7 +90,8 @@ var titleTranslate = {
         distribute: "Distribute Plan",
         description: "Description",
         contractUs: "Contact Us",
-        news: "news"
+        news: "news",
+        team: "team"
     },
     jp: {
         water: "ボトルウオーター業界",
@@ -103,6 +105,7 @@ var titleTranslate = {
         distribute: "分配計画",
         description: "プロジェクト説明",
         contractUs: "問い合わせ",
-        news: "ニュース"
+        news: "ニュース",
+        team: "团体"
     }
 }

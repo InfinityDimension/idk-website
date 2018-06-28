@@ -1,40 +1,41 @@
 function rendAnimate(index) {
-    for (var i=1;i<7;i++){
-        if(index==i){
+    for (var i = 1; i < 7; i++) {
+        if (index == i) {
             var animData = {
-                container: document.getElementById('bodymovin'+index),
+                container: document.getElementById('bodymovin' + index),
                 renderer: 'svg',
                 loop: false,
                 autoplay: false,
-                path: '../bodymovin/icon'+index+'.json'
+                path: '../bodymovin/icon' + index + '.json'
 
             };
             var anim = bodymovin.loadAnimation(animData);
             anim.setDirection(0);
             anim.play();
-        }else{
+        } else {
             var animData = {
-                container: document.getElementById('bodymovin'+i),
+                container: document.getElementById('bodymovin' + i),
                 renderer: 'svg',
                 loop: false,
                 autoplay: false,
-                path: '../bodymovin/icon'+i+'.json'
+                path: '../bodymovin/icon' + i + '.json'
 
             };
             var anim = bodymovin.loadAnimation(animData);
-            var that = $("#bodymovin"+i);
-            (function(anim) {
-                that.mouseover(function() {
+            var that = $("#bodymovin" + i);
+            (function (anim) {
+                that.mouseover(function () {
                     anim.setDirection(0);
                     anim.play();
                 });
-                that.mouseleave(function(){
+                that.mouseleave(function () {
                     anim.goToAndStop(0, true);
                 });
-                that.click(function(){
+                that.click(function () {
                     anim.goToAndStop(15, true);
                 });
             })(anim);
         }
-    };
+    }
+    ;
 }

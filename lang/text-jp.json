@@ -6,7 +6,7 @@
     "menu4": "よくある問題点",
     "menu5": "問い合わ",
     "menu6": "日本語",
-    "menu7": "Team",
+    "menu7": "团体",
     "icon": "images/icon_flag_Jap@2x.png",
     "icon_other": "../images/icon_flag_Jap@2x.png"
   },
@@ -143,6 +143,14 @@
     "phone": "電話：+61 412 927 796",
     "email": "メール：webmaster@jaz-intl.com",
     "adress": "住所：9A/139 Minjungbal Drive Tweed Heads South NSW 2486 Australia"
+  },
+  "contactText": {
+    "phone": "電話",
+    "twitter": "Twitter",
+    "wechat": "wechat",
+    "telegram": "telegram",
+    "email": "メール",
+    "address": "住所"
   },
   "contactUs": {
     "title": "問い合わせ",

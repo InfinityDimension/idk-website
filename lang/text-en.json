@@ -144,6 +144,14 @@
     "email": "Email：webmaster@jaz-intl.com",
     "adress": "Adress：9A/139 Minjungbal Drive Tweed Heads South NSW 2486 Australia"
   },
+  "contactText": {
+    "phone": "Tel",
+    "twitter": "Twitter",
+    "wechat": "wechat",
+    "telegram": "Telegram",
+    "email": "Email",
+    "address": "Adress"
+  },
   "contactUs": {
     "title": "Contact Us",
     "secTitle": "",

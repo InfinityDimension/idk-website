@@ -8,7 +8,10 @@
     "menu6": "English",
     "menu7": "Team",
     "icon": "images/icon_flag_eng@2x.png",
-    "icon_other": "../images/icon_flag_eng@2x.png"
+    "icon_other": "../images/icon_flag_eng@2x.png",
+    "downloadCH":"Simplified Chinese",
+    "downloadCH1":"Traditional Chinese",
+    "downloadEH":"English"
   },
   "banner": {
     "banner1": {
@@ -17,7 +20,7 @@
       "link": "white paper"
     },
     "banner2": {
-      "title": "IDK block chain browsers",
+      "title": "IDK blockChain browsers",
       "des": "The next generation to the centralization platform",
       "link": "Browsers"
     },

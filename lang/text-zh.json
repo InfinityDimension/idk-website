@@ -8,7 +8,10 @@
     "menu6": "简体中文",
     "menu7": "团队",
     "icon": "images/icon_flag_china@2x.png",
-    "icon_other": "../images/icon_flag_china@2x.png"
+    "icon_other": "../images/icon_flag_china@2x.png",
+    "downloadCH":"SimplifiedCH",
+    "downloadCH1":"TraditionalCH",
+    "downloadEH":"English"
   },
   "banner": {
     "banner1": {

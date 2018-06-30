@@ -13,7 +13,7 @@
   "banner": {
     "banner1": {
       "title": "",
-      "des": "InfiniteDimension is a product information traceability platform through integrating the IOT and Blockchain Technology",
+      "des": "IDK is a product information traceability platform through integrating the IOT and Blockchain Technology",
       "link": "white paper"
     },
     "banner2": {
@@ -23,17 +23,17 @@
     },
     "banner3": {
       "title": "Tracing the source of milk supply chain",
-      "des": "Through the traceability management of the whole process of the industry chain of the fruit and vegetable beverage industry, InfiniteDimension solves the drawbacks of its long industrial chain and difficult management, at the same time ensures product quality and safety.",
+      "des": "Through the traceability management of the whole process of the industry chain of the fruit and vegetable beverage industry, IDK solves the drawbacks of its long industrial chain and difficult management, at the same time ensures product quality and safety.",
       "link": "View the case"
     },
     "banner4": {
       "title": "Traceability of bottled water supply chain",
-      "des": "Through the traceability management of the entire industrial chain of drinking water, InfiniteDimension strengthens the tracking and monitoring of all links, especially water sources, and eliminates potential health and safety hazards of drinking water.",
+      "des": "Through the traceability management of the entire industrial chain of drinking water, IDK strengthens the tracking and monitoring of all links, especially water sources, and eliminates potential health and safety hazards of drinking water.",
       "link": "View the case"
     }
   },
   "whyUs": {
-    "title": "Why choose InfiniteDimension?",
+    "title": "Why choose IDK?",
     "list": {
       "des1": "Focus on the food safety industry and customize the traceability plan for customers",
       "des2": "Create a food safety industry ecological chain, improve business efficiency",
@@ -43,11 +43,11 @@
   },
   "advantage": {
     "title": "Core technical advantages",
-    "desc": "InfiniteDimension is a product information traceability platform through integrating the IOT and Blockchain Technology."
+    "desc": "IDK is a product information traceability platform through integrating the IOT and Blockchain Technology."
   },
   "target": {
-    "title": "The goal of InfiniteDimension",
-    "desc": "The goal of InfiniteDimension is to use IOT and Blockchain Technology to build up a reliable safety food quality supervision Ecological Network."
+    "title": "The goal of IDK",
+    "desc": "The goal of IDK is to use IOT and Blockchain Technology to build up a reliable safety food quality supervision Ecological Network."
   },
   "member": {
     "title": "TEAM MEMBER",
@@ -179,15 +179,15 @@
   "description": {
     "title": "DESCRIPTION",
     "secTitle": "",
-    "des": "Food safety is a problem that people cannot ignore in their daily diet.InfiniteDimension is a health product tracking data center based on block-chain. Its core target is tracking the production and circulation links of new generation health products, and use Block-chain technology and Smart Contract technology to improve transaction transparency and reduce fraud risk. As more and more participants join in InfiniteDimension, the entire ecological chain of InfiniteDimension based on ensuring the safety of terminal product, nd through the Blockchain and Smart Contract which can ensure the safety, efficiency and transparency of transactions, which will bring more business opportunities for all participants. "
+    "des": "Food safety is a problem that people cannot ignore in their daily diet.IDK is a health product tracking data center based on block-chain. Its core target is tracking the production and circulation links of new generation health products, and use Block-chain technology and Smart Contract technology to improve transaction transparency and reduce fraud risk. As more and more participants join in IDK, the entire ecological chain of IDK based on ensuring the safety of terminal product, nd through the Blockchain and Smart Contract which can ensure the safety, efficiency and transparency of transactions, which will bring more business opportunities for all participants. "
   },
   "solution": {
     "title": "SOLUTION",
     "secTitle": "",
-    "des1": "InfiniteDimension mainly resolves trust issues in the field of food safety,.Currently, there are serious asymmetric information problems in the food industry, and some behaviors such as shoddy, false propaganda mixing the false with the genuine which resulted in consumers' concern about the hidden dangers of food safety and at the same time increase the manufacturer's publicity cost, trust cost and anti-counterfeit cost.",
-    "des2": "InfiniteDimension shall digitized and associate the business data, logistics data and code data (product data) in the food production chain with IDK and write into the Blockchain. Through using Smart Contract, establish relational connections among different data objects, and meanwhile, coordinate with the corresponding permissions to make Portfolio modeling, so as to reflect different business activities in the real business world.",
-    "des3": "By given the product an one and only identification, InfiniteDimension can disclose the entire information of the product, such as production, inspection, transportation,distribution, retail and other link to all consumers, enhance the users' shopping experience. In the commodity traceability platform, InfiniteDimension introduces Blockchain technology, and uses its natural tamper-resistant characteristics to solve the tampered vulnerability of traditional traceability platform information storage, and truly creates an open, transparent, secure and tamper-resistant traceability platform.",
-    "des4": "InfiniteDimension realizes the application of the platform technology through three layers system architecture of the IOT adaptation layer, the Blockchain abstraction layer and the application service layer.",
+    "des1": "IDK mainly resolves trust issues in the field of food safety,.Currently, there are serious asymmetric information problems in the food industry, and some behaviors such as shoddy, false propaganda mixing the false with the genuine which resulted in consumers' concern about the hidden dangers of food safety and at the same time increase the manufacturer's publicity cost, trust cost and anti-counterfeit cost.",
+    "des2": "IDK shall digitized and associate the business data, logistics data and code data (product data) in the food production chain with IDK and write into the Blockchain. Through using Smart Contract, establish relational connections among different data objects, and meanwhile, coordinate with the corresponding permissions to make Portfolio modeling, so as to reflect different business activities in the real business world.",
+    "des3": "By given the product an one and only identification, IDK can disclose the entire information of the product, such as production, inspection, transportation,distribution, retail and other link to all consumers, enhance the users' shopping experience. In the commodity traceability platform, IDK introduces Blockchain technology, and uses its natural tamper-resistant characteristics to solve the tampered vulnerability of traditional traceability platform information storage, and truly creates an open, transparent, secure and tamper-resistant traceability platform.",
+    "des4": "IDK realizes the application of the platform technology through three layers system architecture of the IOT adaptation layer, the Blockchain abstraction layer and the application service layer.",
     "img1": "../images/pic_solution1_eng1@2x.png",
     "img2": "../images/pic_solution2_eng2@2x.png"
   },
@@ -222,26 +222,26 @@
   "prospect": {
     "title": "Prospects for Development",
     "secTitle": "",
-    "des1": "In the future, InfiniteDimension can be used not only for tracing the traceability of health food, but also can cover the entire manufacturing industry. Once there exist some enterprises adopting InfiniteDimension source tracing system, other companies which have not used it will also use the technology further to ensure their market competitiveness and enhance their capability of product quality control.InfiniteDimension intends to enter internet security field next, and has reached an initial intent of cooperation with WONHE Multimedia Commerce Ltd, an Australian listed company."
+    "des1": "In the future, IDK can be used not only for tracing the traceability of health food, but also can cover the entire manufacturing industry. Once there exist some enterprises adopting IDK source tracing system, other companies which have not used it will also use the technology further to ensure their market competitiveness and enhance their capability of product quality control.IDK intends to enter internet security field next, and has reached an initial intent of cooperation with WONHE Multimedia Commerce Ltd, an Australian listed company."
   },
   "qa": {
     "title": "Frequently Asked Question",
     "secTitle": "Q&A",
     "item1": {
-      "q": "What is InfiniteDimension?",
-      "a": "InfiniteDimension is a blockchain-based health product tracking data center, with tracking production and circulation of the new generation health products as the core goal, and using the blockchain and smart contract technologies to increase the transparency of transactions and reduce the risk of fraud."
+      "q": "What is IDK?",
+      "a": "IDK is a blockchain-based health product tracking data center, with tracking production and circulation of the new generation health products as the core goal, and using the blockchain and smart contract technologies to increase the transparency of transactions and reduce the risk of fraud."
     },
     "item2": {
       "q": "What functions as Token do IDK include?",
-      "a": "The main function of IDK (InfiniteDimension Coin) is to achieve the information exchange in the blockchain. At the same time, IDK is also a circulating currency in the InfiniteDimension eco-chain. Dealers can use IDK to complete transactions based on smart contracts."
+      "a": "The main function of IDK (IDK Coin) is to achieve the information exchange in the blockchain. At the same time, IDK is also a circulating currency in the IDK eco-chain. Dealers can use IDK to complete transactions based on smart contracts."
     },
     "item3": {
       "q": "What is our core technical advantage?",
-      "a": "InfiniteDimension combines IOT with blockchain technology to enable full-industry traceability coverage from the supply chain to end-consumers. It subverts the limitations of traditional traceability technology to achieve the irreversible character of the relevant data and non-repeatability of anti-counterfeiting products. With the addition of smart contract technologies, transaction costs are reduced, meanwhile, the risk of trust in the transaction is reduced as well."
+      "a": "IDK combines IOT with blockchain technology to enable full-industry traceability coverage from the supply chain to end-consumers. It subverts the limitations of traditional traceability technology to achieve the irreversible character of the relevant data and non-repeatability of anti-counterfeiting products. With the addition of smart contract technologies, transaction costs are reduced, meanwhile, the risk of trust in the transaction is reduced as well."
     },
     "item4": {
       "q": "What is IDK’s future vision?",
-      "a": "InfiniteDimension can be used not only for tracing the source of the whole food industry, but also can cover the entire manufacturing industry, to provide consumers with true product traceability information, eliminate the cost of trust, and let more and more enterprises benefit from it in the future."
+      "a": "IDK can be used not only for tracing the source of the whole food industry, but also can cover the entire manufacturing industry, to provide consumers with true product traceability information, eliminate the cost of trust, and let more and more enterprises benefit from it in the future."
     }
   },
   "waterPage": {
@@ -251,15 +251,15 @@
       "title": "case",
       "secTitle1": "Tianmei  Beverage  Group  Corporation  Limited(Tianmei Beverage Group Corporation Limited, referred to as “Tianmei”, ASX code：TB8）",
       "info": "Tianmei Beverage Group Corporation Limited takes “build a first-class livelihood enterprise and serve the health of thousands of families” as its mission, carefully conducts the research and development of drinking water products, and strives to provide wholesome, safe and healthy high-quality products for the masses of the people. A high-level R&D team of Tianmei which led by the water quality experts of Chinese Academy of Sciences and professor-level engineers searches and develops high-quality water sources in many areas. The team has developed a world’s advanced automated production lines with independent intellectual property rights, and has established a water source environmental protection and water products quality control system. As a result, a variety of 'Tianmei' series of drinking water products have been developed and produced, all of which are directly filled in the water source area of the original forest nature reserve in the golden climatic zone of 25 degrees north latitude.",
-      "secTitle2": "InfiniteDimension conducts traceability management towards the whole processes of Tianmei from water source collection in the water source area to filling process,packaging product checking, sorting transport and terminal sales:"
+      "secTitle2": "IDK conducts traceability management towards the whole processes of Tianmei from water source collection in the water source area to filling process,packaging product checking, sorting transport and terminal sales:"
     },
     "item1": {
       "title": "1. Water Source Area Tracking",
-      "des": "Connect InfiniteDimension system to the water source area by putting the water quality inspection equipment in the water source area, real-time tracking and monitoring to the water source area. Thus it will alarm on time if the water is polluted.water source area. Thus it will alarm on time if the water is polluted."
+      "des": "Connect IDK system to the water source area by putting the water quality inspection equipment in the water source area, real-time tracking and monitoring to the water source area. Thus it will alarm on time if the water is polluted.water source area. Thus it will alarm on time if the water is polluted."
     },
     "item2": {
       "title": "2. Canning Production",
-      "des": "Supervise and manage the whole canning process of Tianmei proprietary water products by link video monitoring with InfiniteDimension, and input quality report of bottled container into the system to supervise and increase Tianmei’s control of canning production process."
+      "des": "Supervise and manage the whole canning process of Tianmei proprietary water products by link video monitoring with IDK, and input quality report of bottled container into the system to supervise and increase Tianmei’s control of canning production process."
     },
     "item3": {
       "title": "3 .Pre-delivery Self-inspection",
@@ -271,7 +271,7 @@
     },
     "item5": {
       "title": "5. Circulation and Sales",
-      "des": "Summarize the above information from various aspects into InfiniteDimension, and compare the uniform and strict industry product standards with the information of Tianmei bottled water products so that consumers can easily find out which indicators are qualified or better than the industry standards, which highlights the superior quality of Tianmei water products."
+      "des": "Summarize the above information from various aspects into IDK, and compare the uniform and strict industry product standards with the information of Tianmei bottled water products so that consumers can easily find out which indicators are qualified or better than the industry standards, which highlights the superior quality of Tianmei water products."
     }
   },
   "fruitPage": {
@@ -281,54 +281,54 @@
       "title": "case",
       "secTitle1": "Case-Bojun Agriculture Holdings Limited (Bojun Agriculture Holdings Limited, referred to as 'Bojun Agriculture', ASX Code: BAH)",
       "info": "Bojun Agriculture is a large-scaled fruit and vegetable beverage research,development and production enterprise, and its China entity operating subsidiary is the only manufacturer of Nanfeng Mandarin fermentated beverage in the country. Bojun Agriculture officially listed on the Australian Securities Exchange (ASX) on December 1, 2017. Bojun Agriculture established long-term cooperative relationships with fixed fruit suppliers, logistics companies and regional agents to strictly control the quality of raw materials and products. Bojun Agriculture also has a very strict process quality inspection system in all aspects of production to ensure that the best quality cfermentated beverages can be produced. Bojun Agriculture adheres to high quality standards and is committed to becoming a leader in the natural fruit and vegetable beverage industry.",
-      "info1": "Bojun Agriculture, as a beverage producer which uses fruit agricultural products as the main raw material, has a strong demand for the quality control of its products,and InfiniteDimension can exactly meet its requirements of enhancing quality control.",
+      "info1": "Bojun Agriculture, as a beverage producer which uses fruit agricultural products as the main raw material, has a strong demand for the quality control of its products,and IDK can exactly meet its requirements of enhancing quality control.",
       "secTitle2": "track and manage the whole process of Bojun Agriculture from fruit procurement to raw material transportation, production and processing, distribution and sales:"
     },
     "item1": {
       "title": "1. Plantation of Fruits",
-      "des": "Bojun Agriculture establishes long-term cooperative relations with fruit suppliers and the fruit supplier's fruits are provided by local fruit farmers. To ensure the stability of fruit quality, Bojun Agriculture has the right to supervise and manage the planting of farmers.Bojun Agriculture may require farmers to input the detailed process of the fruit trees growth, soil environmental detection and other planting information into InfiniteDimension. Tracing from the root of the fruits growth can lead to better traceability of the products."
+      "des": "Bojun Agriculture establishes long-term cooperative relations with fruit suppliers and the fruit supplier's fruits are provided by local fruit farmers. To ensure the stability of fruit quality, Bojun Agriculture has the right to supervise and manage the planting of farmers.Bojun Agriculture may require farmers to input the detailed process of the fruit trees growth, soil environmental detection and other planting information into IDK. Tracing from the root of the fruits growth can lead to better traceability of the products."
     },
     "item2": {
       "title": "2. Procurement of Fruits",
-      "des": "The company signs acquisition agreements with fruit suppliers, and stipulates the purchase price according to market price of high quality fruit. Due to the advantages of place of origin, the suppliers can provide the best quality fruit products on time.The smart contract is introduced in this link through InfiniteDimension and the payment is made to the fruit supplier with HT currency. At the same time, checking the quality of the fruit, if the fruit quality has a problem or the batch fruit does not meet the company's production and processing standards, it can automatically refund the money and reduce claim dispute."
+      "des": "The company signs acquisition agreements with fruit suppliers, and stipulates the purchase price according to market price of high quality fruit. Due to the advantages of place of origin, the suppliers can provide the best quality fruit products on time.The smart contract is introduced in this link through IDK and the payment is made to the fruit supplier with HT currency. At the same time, checking the quality of the fruit, if the fruit quality has a problem or the batch fruit does not meet the company's production and processing standards, it can automatically refund the money and reduce claim dispute."
     },
     "item3": {
       "title": "3. Transportation",
-      "des": "The fruit supplier uses its own mode of transportation when transport fruits to Bojun Agriculture. In order to contrl the quality and manage the transportation condition. The purchase and transport partners of Bojun Agriculture are the same,which also facilitates the division of responsibilities.In this link, InfiniteDimension will track the temperature control, transportation path and time of the transport vehicle and record it. The parties can settle the transaction directly after the fruits acceptance. Due to the existing InfiniteDimension records both in the fruit procurement and transportation links, if Bojun Agriculture find the fruit quality problems during the acceptance, it can also clarify the specific link responsible person of the unqualified fruit product."
+      "des": "The fruit supplier uses its own mode of transportation when transport fruits to Bojun Agriculture. In order to contrl the quality and manage the transportation condition. The purchase and transport partners of Bojun Agriculture are the same,which also facilitates the division of responsibilities.In this link, IDK will track the temperature control, transportation path and time of the transport vehicle and record it. The parties can settle the transaction directly after the fruits acceptance. Due to the existing IDK records both in the fruit procurement and transportation links, if Bojun Agriculture find the fruit quality problems during the acceptance, it can also clarify the specific link responsible person of the unqualified fruit product."
     },
     "item4": {
       "title": "4. Production",
-      "des": "After receiving the raw materials, Bojun Agriculture will carry out the production and processing of the fruit vinegar beverage in its own factories and outsourcing factories until the finished bottled (or can) products are ready for sale. In this link, InfiniteDimension will track the acceptance warehousing of the raw materials, pesticide detection, juicing, fermentation, blending maturation, canning, and a series of situation of the production process, every step of the actual operation situation and the information of the principal will be recorded in InfiniteDimension. At the same time, Bojun Agriculture can also record the patent items involved in the production process into InfiniteDimension."
+      "des": "After receiving the raw materials, Bojun Agriculture will carry out the production and processing of the fruit vinegar beverage in its own factories and outsourcing factories until the finished bottled (or can) products are ready for sale. In this link, IDK will track the acceptance warehousing of the raw materials, pesticide detection, juicing, fermentation, blending maturation, canning, and a series of situation of the production process, every step of the actual operation situation and the information of the principal will be recorded in IDK. At the same time, Bojun Agriculture can also record the patent items involved in the production process into IDK."
     },
     "item5": {
       "title": "5. Sales",
-      "des": "Bojun Agriculture distributes fruit fermented beverage products to regional agents in 10 provinces of China through two long-term cooperative logistics companies. The actual sales of the products are directly responsible by the agents.At this link, InfiniteDimension will record the transportation routes and real-time transportation conditions of the logistics company's delivery of products, and the quality of the products when they are delivered to the agents. The sales information and transfer receipts of all regional agents will also be recorded, and the purchase and sales relationship between the regional agents and Bojun Agriculture will be established through smart contracts. After the agents have passed the inspection of the product, it can be settled directly through the smart contracts with HT currency to Bojun Agriculture."
+      "des": "Bojun Agriculture distributes fruit fermented beverage products to regional agents in 10 provinces of China through two long-term cooperative logistics companies. The actual sales of the products are directly responsible by the agents.At this link, IDK will record the transportation routes and real-time transportation conditions of the logistics company's delivery of products, and the quality of the products when they are delivered to the agents. The sales information and transfer receipts of all regional agents will also be recorded, and the purchase and sales relationship between the regional agents and Bojun Agriculture will be established through smart contracts. After the agents have passed the inspection of the product, it can be settled directly through the smart contracts with HT currency to Bojun Agriculture."
     },
     "item6": {
       "title": "6. Purchase",
-      "des": "When consumers purchase the fermented beverages, they scan the QR code on the package to view all the relevant information and quality inspection reports for the product from fruit purchase, transportation, production, distribution and sales, so that consumers can clearly identify the actual nutrients and ingredients of the product, and determine the authenticity of the product. At the same time, it can promote the related information of Bojun Agriculture to a certain extent, which is conducive to enhancing its brand effect,improving competitiveness and increasing market share.If there is a product quality problem, it can also timely detect the problems and hold them accountable. If it is not the responsibility of Bojun Agriculture, Bojun Agriculture can 'prove their innocence ' through InfiniteDimension."
+      "des": "When consumers purchase the fermented beverages, they scan the QR code on the package to view all the relevant information and quality inspection reports for the product from fruit purchase, transportation, production, distribution and sales, so that consumers can clearly identify the actual nutrients and ingredients of the product, and determine the authenticity of the product. At the same time, it can promote the related information of Bojun Agriculture to a certain extent, which is conducive to enhancing its brand effect,improving competitiveness and increasing market share.If there is a product quality problem, it can also timely detect the problems and hold them accountable. If it is not the responsibility of Bojun Agriculture, Bojun Agriculture can 'prove their innocence ' through IDK."
     }
   },
   "mediaPage": {
     "title": "Tracing the source of multimedia trade",
-    "summary": "The future of InfiniteDimension can be used not only for traceability of healthy foods, but also for the entire manufacturing industry. InfiniteDimension intends to enter internet security field next, and has reached an initial intent of cooperation with WONHE Multimedia Commerce Ltd, an Australian listed company.",
+    "summary": "The future of IDK can be used not only for traceability of healthy foods, but also for the entire manufacturing industry. IDK intends to enter internet security field next, and has reached an initial intent of cooperation with WONHE Multimedia Commerce Ltd, an Australian listed company.",
     "case": {
       "title": "case",
       "secTitle1": "WONHE Multimedia Commerce Ltd （herein after referred to as “Wonhe”, ASXcode: WMC）",
       "info": "As the provider of high-end business and personal information technology product, Wonhe completes its successful admission to the ASX on December 16, 2015. The business of Wonheinvolves TV internet, commercial WIFI advertisement operation, internet advertisement operation,VOD service, internet of things technology and integration of three networks etc. The strategic goal of Wonhe is to, based on establishing matrix product chain, provide high-quality content and service to customers with high-speed internet content cloud platform as its core value, combined with the internet ecosystem of software system and hardware facility to increase the product value,so as to drive the prosperity and development of entire ecosphere.",
-      "secTitle2": "Wonhe is expected to apply InfiniteDimension to the current multimedia family player for interactive data compilation of family user, specific recommendation, program launching on interactive platform, VOD payment for user etc. The traceability by InfiniteDimension to the products of Wonhe are listed as follows:"
+      "secTitle2": "Wonhe is expected to apply IDK to the current multimedia family player for interactive data compilation of family user, specific recommendation, program launching on interactive platform, VOD payment for user etc. The traceability by IDK to the products of Wonhe are listed as follows:"
     },
     "item1": {
       "title": "1. Wonhe Technology Building",
-      "des": "Whether the electronic devices are good or not depends on their hardware and software product conditions. With InfiniteDimension, you can record the status of Wonhe technology model (non-confidential content), i.e. the software, and supervise how they update and develop the software."
+      "des": "Whether the electronic devices are good or not depends on their hardware and software product conditions. With IDK, you can record the status of Wonhe technology model (non-confidential content), i.e. the software, and supervise how they update and develop the software."
     },
     "item2": {
       "title": "2. Hardware Equipment Production",
-      "des": "By inputing the monitoring records of Wonhe's hardware production process into InfiniteDimension, it could record its hardware production process, and enter the self-test reports and product parameters into the system."
+      "des": "By inputing the monitoring records of Wonhe's hardware production process into IDK, it could record its hardware production process, and enter the self-test reports and product parameters into the system."
     },
     "item3": {
       "title": "3. Transportation and Sales",
-      "des": "Wonhe can record transport vehicles and acceptance orders and monitor the condition of the products after shipment to prevent the mixture of fake and shoddy products through InfiniteDimension.At the same time, consumers can learn the whole process of producing electronic products of Wonhe from InfiniteDimension.InfiniteDimension is bound to enhance its product safety control capability, increase the information transparency of product quality and improve its market competitiveness by recording the conditions of Wonhe hardware and software equipment."
+      "des": "Wonhe can record transport vehicles and acceptance orders and monitor the condition of the products after shipment to prevent the mixture of fake and shoddy products through IDK.At the same time, consumers can learn the whole process of producing electronic products of Wonhe from IDK.IDK is bound to enhance its product safety control capability, increase the information transparency of product quality and improve its market competitiveness by recording the conditions of Wonhe hardware and software equipment."
     }
   }
 }

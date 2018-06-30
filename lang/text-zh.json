@@ -6,14 +6,14 @@
     "menu4": "常见问题",
     "menu5": "联系我们",
     "menu6": "简体中文",
-    "menu7": "团体",
+    "menu7": "团队",
     "icon": "images/icon_flag_china@2x.png",
     "icon_other": "../images/icon_flag_china@2x.png"
   },
   "banner": {
     "banner1": {
       "title": "",
-      "des": "InfiniteDimension是集IOT物联网与区块链技术为一体的产品信息溯源平台",
+      "des": "IDK是集IOT物联网与区块链技术为一体的产品信息溯源平台",
       "link": "查看白皮书"
     },
     "banner2": {
@@ -33,7 +33,7 @@
     }
   },
   "whyUs": {
-    "title": "为什么选择InfiniteDimension",
+    "title": "为什么选择IDK",
     "list": {
       "des1": "专注做食品安全行业<br/>为客户量身定做溯源方案",
       "des2": "创造食品安全产业生态链<br/>提升商业效率",
@@ -42,8 +42,8 @@
     }
   },
   "advantage": {
-    "title": "什么是InfiniteDimension",
-    "desc": "InfiniteDimension是集IOT物联网与区块链技术为一体的产品信息溯源平台"
+    "title": "什么是IDK",
+    "desc": "IDK是集IOT物联网与区块链技术为一体的产品信息溯源平台"
   },
   "target": {
     "title": "InfiniteDimension的目标",

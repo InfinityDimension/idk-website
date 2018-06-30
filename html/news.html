@@ -118,7 +118,7 @@
         var language = getCookie(name); //获取语言
         var page = 1;
 
-        $.get("http://www.IDKchain.com:3000/newsInterface/list?language=" + language, function (res) {
+        $.get("http://www.indchain.com:3000/newsInterface/list?language=" + language, function (res) {
             var data = res.data;
             newsList.html(generateNews(data));
         });

@@ -103,9 +103,13 @@
         <h3 data-localize="roadmap.title">分配计划</h3>
         <div class="spacing"></div>
     </div>
-    <div class="solutionBlock-info">为适应不同参与方需求，IDK批发行IDD和IDK两种代币。</div>
+    <div id="myId1" style="display: none" class="solutionBlock-info">为适应不同参与方需求，IDK批发行IDD和IDK两种代币。</div>
+    <div id="myId2" style="display: none" class="solutionBlock-info">In order to meet the needs of different
+        participants, IDK proposes to
+        issue two kinds of tokens, including IDD and IDK.
+    </div>
     <div style="width: 100%;height: 400px;" id="distributeChart"></div>
-    <div class="distribute-table">
+    <div id="myId3" style="display: none" class="distribute-table">
         <h5>总代币100亿，永不增发，主要用于：</h5>
         <div class="table-box">
             <table border="1px">
@@ -147,12 +151,54 @@
             </table>
         </div>
     </div>
+    <div id="myId4" style="display: none" class="distribute-table">
+        <h5>The total circulation of IDK token is 10 billion pieces and is never
+            added, which mainly used for：</h5>
+        <div class="table-box">
+            <table border="1px">
+                <tr>
+                    <th width="230px">Distribution</th>
+                    <th width="370px">Amount</th>
+                    <th width="170px">Ratio</th>
+                </tr>
+                <tr>
+                    <td>Project consultant rewards</td>
+                    <td>600,000,000</td>
+                    <td>6%</td>
+                </tr>
+                <tr>
+                    <td>Cornerstone partners holding</td>
+                    <td>1,500,000,000</td>
+                    <td>15%</td>
+                </tr>
+                <tr>
+                    <td>White list user holding</td>
+                    <td>1,000,320,000</td>
+                    <td>10%</td>
+                </tr>
+                <tr>
+                    <td>Community rewards</td>
+                    <td>1,696,800,000</td>
+                    <td>17%</td>
+                </tr>
+                <tr>
+                    <td>Project marketing</td>
+                    <td>2,000,000,000</td>
+                    <td>20%</td>
+                </tr>
+                <tr>
+                    <td>Project consultant rewards</td>
+                    <td>2,000,000,000</td>
+                    <td>20%</td>
+                </tr>
+            </table>
+        </div>
+    </div>
 </div>
 
 
 <script type="text/javascript">
     // 基于准备好的dom，初始化echarts实例
-    var myChart = echarts.init(document.getElementById('distributeChart'));
     var data;
     if (getCookie(name) === "zh") {
         data = [
@@ -194,25 +240,81 @@
             }
         ];
     }
-    option = {
-        series: [
-            {
-                type: 'pie',
-                radius: '55%',
-                center: ['50%', '40%'],
-                data: data,
-                itemStyle: {
-                    emphasis: {
-                        shadowBlur: 10,
-                        shadowOffsetX: 0,
-                        shadowColor: 'rgba(0, 0, 0, 0.5)'
+    var dom = document.getElementById("distributeChart");
+    var myChart = echarts.init(dom);
+    option = null;
+    if (getCookie(name) === "zh") {
+        $('#myId1').show();
+        $('#myId3').show();
+        option = {
+            tooltip: {
+                trigger: 'item',
+                formatter: "{a} <br/>{b} : {c} "
+            },
+            color: ['#2C9AB7', '#41B3D3', '#46CDCF', '#A0E4CE', 'rgb(252,157,154)', 'rgb(249,205,173)', '#41B3D3'],
+            series: [
+                {
+                    name: '代币IDK数量',
+                    type: 'pie',
+                    radius: '55%',
+                    center: ['50%', '60%'],
+                    data: [
+                        {value: 2000000000, name: '团队持有 (20%)'},
+                        {value: 2000000000, name: '项目营销 (20%)'},
+                        {value: 1696800000, name: '社区奖励 (17%)'},
+                        {value: 1500000000, name: '基石合作伙伴持有 (15%)'},
+                        {value: 1200000000, name: '投资机构持有 (12%)'},
+                        {value: 1003200000, name: '白名单用户持有 (10%)'},
+                        {value: 600000000, name: '项目顾问奖励 (6%)'}
+                    ],
+                    itemStyle: {
+                        emphasis: {
+                            shadowBlur: 10,
+                            shadowOffsetX: 0,
+                            shadowColor: 'rgba(0, 0, 0, 0.2)'
+                        },
                     }
                 }
-            }
-        ]
-    };
-    // 使用刚指定的配置项和数据显示图表。
-    myChart.setOption(option);
+            ]
+        };
+    } else {
+        $('#myId2').show();
+        $('#myId4').show();
+        option = {
+            tooltip: {
+                trigger: 'item',
+                formatter: "{a} <br/>{b} : {c} "
+            },
+            color: ['#2C9AB7', '#41B3D3', '#46CDCF', '#A0E4CE', 'rgb(252,157,154)', 'rgb(249,205,173)', '#41B3D3'],
+            series: [
+                {
+                    name: 'The total circulation of IDK token',
+                    type: 'pie',
+                    radius: '55%',
+                    center: ['50%', '60%'],
+                    data: [
+                        {value: 2000000000, name: 'Team holding (20%)'},
+                        {value: 2000000000, name: 'Project marketing (20%)'},
+                        {value: 1696800000, name: 'Community rewards (17%)'},
+                        {value: 1500000000, name: 'Cornerstone partners holding (15%)'},
+                        {value: 1200000000, name: 'Investment institute holding (12%)'},
+                        {value: 1003200000, name: 'White list user holding (10%)'},
+                        {value: 600000000, name: 'Project consultant rewards (6%)'}
+                    ],
+                    itemStyle: {
+                        emphasis: {
+                            shadowBlur: 10,
+                            shadowOffsetX: 0,
+                            shadowColor: 'rgba(0, 0, 0, 0.2)'
+                        },
+                    }
+                }
+            ]
+        };
+    }
+    if (option && typeof option === "object") {
+        myChart.setOption(option, true);
+    }
 </script>
 
 <div class="footer">

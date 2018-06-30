@@ -9,9 +9,9 @@
     "menu7": "团队",
     "icon": "images/icon_flag_china@2x.png",
     "icon_other": "../images/icon_flag_china@2x.png",
-    "downloadCH":"SimplifiedCH",
-    "downloadCH1":"TraditionalCH",
-    "downloadEH":"English"
+    "downloadCH":"简体版下载",
+    "downloadCH1":"繁体版下载",
+    "downloadEH":"英文版下载"
   },
   "banner": {
     "banner1": {

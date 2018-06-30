@@ -9,8 +9,8 @@
     "menu7": "Team",
     "icon": "images/icon_flag_eng@2x.png",
     "icon_other": "../images/icon_flag_eng@2x.png",
-    "downloadCH":"Simplified Chinese",
-    "downloadCH1":"Traditional Chinese",
+    "downloadCH":"SimplifiedZH",
+    "downloadCH1":"TraditionalZH",
     "downloadEH":"English"
   },
   "banner": {

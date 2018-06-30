@@ -1,40 +1,40 @@
-var name = "somoveLanguage";
+var cookieName = "somoveLanguage";
 
 function chgLang(value) {
-    SetCookie(name, value);
-    console.log("come in chgLang" + name + value);
+    SetCookie(cookieName, value);
+    console.log("come in chgLang" + cookieName + value);
     window.location.reload();
 }
 
-function SetCookie(name, value) {
+function SetCookie(cookieName, value) {
     var Days = 30; //此 cookie 将被保存 30 天
     var exp = new Date(); //new Date("December 31, 9998");
     exp.setTime(exp.getTime() + Days * 24 * 60 * 60 * 1000);
-    document.cookie = name + "=" + escape(value) + ";expires=" + exp.toGMTString() + ";path=/;";
+    document.cookie = cookieName + "=" + escape(value) + ";expires=" + exp.toGMTString() + ";path=/;";
 }
 
-function getCookie(name) {  //取cookies函数
-    var arr = document.cookie.match(new RegExp("(^| )" + name + "=([^;]*)(;|$)"));
+function getCookie(cookieName) {  //取cookies函数
+    var arr = document.cookie.match(new RegExp("(^| )" + cookieName + "=([^;]*)(;|$)"));
     if (arr != null) return unescape(arr[2]);
     return null
 }
 
 $(function () {
     //根据cookie选择语言
-    if (getCookie(name)) {
-        if (getCookie(name) === "zh") {
+    if (getCookie(cookieName)) {
+        if (getCookie(cookieName) === "zh") {
             $("[data-localize]").localize("text", {
                 pathPrefix: "../lang",
                 language: "zh"
             });
             console.log("come in cookie zh");
-        } else if (getCookie(name) === "en") {
+        } else if (getCookie(cookieName) === "en") {
             $("[data-localize]").localize("text", {
                 pathPrefix: "../lang",
                 language: "en"
             });
             console.log("come in cookie en");
-        } else if (getCookie(name) === "jp") {
+        } else if (getCookie(cookieName) === "jp") {
             $("[data-localize]").localize("text", {
                 pathPrefix: "../lang",
                 language: "jp"
@@ -48,6 +48,7 @@ $(function () {
             console.log("come in cookie en");
         }
     } else {
+        SetCookie(cookieName, 'en');
         // 当cookie里没有保存语言时，选择默认语言英语
         $("[data-localize]").localize("text", {
             pathPrefix: "../lang",
@@ -59,7 +60,7 @@ $(function () {
 });
 
 function setTitle(title) {
-    document.title = titleTranslate[getCookie(name)][title];
+    document.title = titleTranslate[getCookie(cookieName)][title];
 }
 
 var titleTranslate = {

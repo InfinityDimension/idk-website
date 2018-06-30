@@ -206,7 +206,7 @@ a:hover {
 .carousel-caption {
     text-align: left;
     left: 30px;
-    right: 30px;
+    /*right: 30px;*/
     max-width: 1120px;
     margin: auto;
     bottom: 40px;

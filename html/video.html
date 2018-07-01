@@ -24,42 +24,6 @@
 <script>
     setTitle("video")
 </script>
-<script>
-    $(document).ready(function () {
-        rendAnimate(4);
-        $(".case-box .item").mouseover(function () {
-            $(this).children(".hover").stop().fadeIn(300);
-        });
-        $(".case-box .item").mouseout(function () {
-            $(this).children(".hover").stop().fadeOut(300);
-        });
-        var video = $('video source');
-        if (getCookie(name) === "zh") {
-            video.attr('src', '../video/Chinese.mp4');
-        }
-        if (getCookie(name) === "en") {
-            video.attr('src', '../video/English.mp4');
-        }
-        if (getCookie(name) === "jp") {
-            video.attr('src', '../video/Japanese.mp4');
-        }
-        if (getCookie(name) === "kr") {
-            video.attr('src', '../video/Korean.mp4');
-        }
-        if (getCookie(name) === "ge") {
-            video.attr('src', '../video/German.mp4');
-        }
-        if (getCookie(name) === "ru") {
-            video.attr('src', '../video/Russian.mp4');
-        }
-        if (getCookie(name) === "fr") {
-            video.attr('src', '../video/French.mp4');
-        }
-        if (getCookie(name) === "sp") {
-            video.attr('src', '../video/Spanish.mp4');
-        }
-    })
-</script>
 <body>
 <div class="navbar navbar-default">
     <div class="container">
@@ -104,7 +68,6 @@
         </div>
     </div>
 </div>
-
 <div class="tabs container head-top">
     <div class="row">
         <div class="item col-lg-2 col-sm-4 col-xs-6">
@@ -135,14 +98,49 @@
     </div>
 </div>
 
-<div id="solutionBlock container">
-    <video style="margin: 50px auto;max-width: 100%;" id="example_video_1"
+<div>
+    <video style="margin: 50px auto;max-width: 100%;height: 700px;width: 1000px" id="example_video_1"
            class="video-js vjs-default-skin"
            controls preload="none" poster="../images/video.png">
         <source src="../video/Chinese.mp4" type="video/mp4"/>
     </video>
 </div>
-
+<script>
+    $(document).ready(function () {
+        rendAnimate(4);
+        $(".case-box .item").mouseover(function () {
+            $(this).children(".hover").stop().fadeIn(300);
+        });
+        $(".case-box .item").mouseout(function () {
+            $(this).children(".hover").stop().fadeOut(300);
+        });
+        var video = $('video source');
+        if (getCookie(name) === "zh") {
+            video.attr('src', '../video/Chinese.mp4');
+        }
+        if (getCookie(name) === "en") {
+            video.attr('src', '../video/English.mp4');
+        }
+        if (getCookie(name) === "jp") {
+            video.attr('src', '../video/Japanese.mp4');
+        }
+        if (getCookie(name) === "kr") {
+            video.attr('src', '../video/Korean.mp4');
+        }
+        if (getCookie(name) === "ge") {
+            video.attr('src', '../video/German.mp4');
+        }
+        if (getCookie(name) === "ru") {
+            video.attr('src', '../video/Russian.mp4');
+        }
+        if (getCookie(name) === "fr") {
+            video.attr('src', '../video/French.mp4');
+        }
+        if (getCookie(name) === "sp") {
+            video.attr('src', '../video/Spanish.mp4');
+        }
+    })
+</script>
 <div class="footer">
     <div class="contact container">
         <div class="row">

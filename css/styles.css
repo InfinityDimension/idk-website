@@ -145,7 +145,7 @@ h6 {
 .navbar-default .navbar-nav > li > a,
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover {
-    color: #BBC1D3;
+    color: #333;
 }
 
 .navbar-default .navbar-nav > .active > a,
